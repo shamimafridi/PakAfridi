@@ -153,6 +153,7 @@ $(document).ready(function() {
     $('.carousel').carousel({
         interval: 5000 //changes the speed
     })
+    $('#styleswitcher').attr('hidden','true')
 
 
 

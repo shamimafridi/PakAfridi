@@ -1,0 +1,22 @@
+{
+  "name": "pakafridi",
+  "version": "1.0.0",
+  "description": "Pak Afrid Project",
+  "main": "edura.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shamimafridi/PakAfridi.git"
+  },
+  "keywords": [
+    "PakAfridi"
+  ],
+  "author": "Shamim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shamimafridi/PakAfridi/issues"
+  },
+  "homepage": "https://github.com/shamimafridi/PakAfridi#readme"
+}

@@ -40,18 +40,19 @@ function initialize() {
 
 
     // set the map center and your position
-    var mapCenter = new google.maps.LatLng(40.756744, -73.984619);
-    var myPosition = new google.maps.LatLng(40.756744, -73.984619);
+    var mapCenter = new google.maps.LatLng(24.8214393,67.0014365);
+    var myPosition = new google.maps.LatLng(24.816737, 67.009777);
+    
 
     // set the content displayed when map marker clicked
-    var infoContent = '<div><h4>Edura HQ</h4><p>Replace with your company info.</p></div>';
+    var infoContent = '<div><h4>Pak Afridi</h4><p>Replace with your company info.</p></div>';
 
     // map marker image
-    var myImage = new google.maps.MarkerImage('images/map-icon.png');
+    var myImage = new google.maps.MarkerImage('images/map-merker.png');
 
 
     var mapOptions = {
-        zoom: 16, // map zoom level
+        zoom: 17, // map zoom level
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         center: mapCenter,
         scrollwheel: false, // toggle between true or false for scrollwheel
@@ -59,16 +60,16 @@ function initialize() {
 
     map = new google.maps.Map(document.getElementById("gmap"), mapOptions);
 
-    var mapType = new google.maps.StyledMapType(mapstyle, { name:"Grayscale" });
-        map.mapTypes.set('tehgrayz', mapType);
-        map.setMapTypeId('tehgrayz');
+    // var mapType = new google.maps.StyledMapType(mapstyle, { name:"Grayscale" });
+    //     map.mapTypes.set('tehgrayz', mapType);
+    //     map.setMapTypeId('tehgrayz');
 
 
     var companyMarker = new google.maps.Marker({
             position: myPosition,
             map: map,
-            icon: myImage,
-            title:"Edura",
+           // icon: myImage,
+            title:"Pak Afridi",
             zIndex: 3
         });
 
