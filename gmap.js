@@ -45,7 +45,7 @@ function initialize() {
     
 
     // set the content displayed when map marker clicked
-    var infoContent = '<div><h4>Pak Afridi</h4><p>Replace with your company info.</p></div>';
+    var infoContent = '<div><h4>Pak Afridi Enterprises</h4><p>Replace with your company info.</p></div>';
 
     // map marker image
     var myImage = new google.maps.MarkerImage('images/map-merker.png');
@@ -69,7 +69,7 @@ function initialize() {
             position: myPosition,
             map: map,
            // icon: myImage,
-            title:"Pak Afridi",
+            title:"Pak Afridi Enterprises",
             zIndex: 3
         });
 
