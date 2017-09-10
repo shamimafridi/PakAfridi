@@ -654,7 +654,7 @@ input, textarea, select {
 
 
 .parallax-container {
-  background: url(http://placehold.it/1920x500) top fixed;
+  background: url("images/blog/blog2.jpg") top fixed;
 }
 
 
@@ -925,9 +925,9 @@ blockquote .avatar-container {
 
 
 
-#services-3 {
+/* #services-3 {
     text-align: center;
-}
+} */
 
 #services-3 .big-icon {
     font-size: 72px;
